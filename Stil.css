@@ -1,7 +1,14 @@
 body {
     font-family:Arial, Helvetica, sans-serif;
 }
-
 div.topnav{
-    
+    background-color: #011E57;
+}
+div.topnav a{
+    color:white;
+    text-decoration: none;
+}
+a.topnav-logo{
+    background-image: url("./Bilder/Logo.jpg");
+    z-index:9;
 }
