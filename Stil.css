@@ -42,14 +42,20 @@ a.topnav-not-logo{
     padding-left:4px;
     font-size:12px;
 
-}
-
 h1.forside-overskrift {
    text-align: center;
-    
+    font-size: 100px;
 }
 h2.forside-underskrift {
     text-align: center;
+    
+}
 
+img.forside-logo {
+    display: block;
+    margin: auto;
+    margin-bottom: 8%;
+    position: relative;
+    transform: translateY(20%);
 }
 
