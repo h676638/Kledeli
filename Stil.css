@@ -2,16 +2,44 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 div.topnav{
-    background-color: #011E57;
+    background-color: #098BB4;
+    padding:15px;
+    padding-left:0px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-right:0;
+    border-radius:10px;
+    position:absolute;
+    top:0px;
+    left:0px;
 }
 div.topnav a{
     color:white;
     text-decoration: none;
+    
 }
+div.topnav a:hover{
+    color: #F2A4C0;
+
+}
+
 a.topnav-logo{
     background-image: url("./Bilder/Logo.jpg");
-    z-index:9;
+    background-size:40.5px 38.5px;
+    padding-right:35px;
+    padding-top:2.7mm;
+    padding-bottom:2.7mm;
+    margin-top:0px;
+    margin-right:4px;
+    border:0px;
 }
+a.topnav-not-logo{
+    
+    padding-top:2.7mm;
+    padding-bottom:2.7mm;
+    padding-right:4px;
+    padding-left:4px;
+    font-size:12px;
 
 }
 
