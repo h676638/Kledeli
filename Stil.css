@@ -2,17 +2,47 @@ body {
     font-family:Arial, Helvetica, sans-serif;
 }
 div.topnav{
-    background-color: #011E57;
+    background-color: #098BB4;
+    padding:15px;
+    padding-left:0px;
+    padding-bottom:10px;
+    padding-top:10px;
+    padding-right:0;
+    border-radius:10px;
+    position:absolute;
+    right:5px;
+    left:0;
+    top:0;
+    box-sizing: border-box;
 }
 div.topnav a{
     color:white;
     text-decoration: none;
+    
 }
-a.topnav-logo{
-    background-image: url("./Bilder/Logo.jpg");
-    z-index:9;
+div.topnav a:hover{
+    color: #F2A4C0;
+
 }
 
+a.topnav-logo{
+    background-image: url("./Bilder/Logo.jpg");
+    background-size:40.5px 38.5px;
+    padding-right:35px;
+    padding-top:2.7mm;
+    padding-bottom:2.7mm;
+    margin-top:0px;
+    margin-right:4px;
+    border:0px;
+}
+a.topnav-not-logo{
+    
+    padding-top:2.7mm;
+    padding-bottom:2.7mm;
+    padding-right:4px;
+    padding-left:4px;
+    font-size:12px;
+}
 h1.forside-overskrift {
    text-align: center;
     font-size: 100px;
@@ -45,4 +75,24 @@ div.tabinnhold {
     
 }
 
+
+div.lokasjoner_steder{
+    background-color: #f2a4c0;
+    border-radius: 25px;
+    border: 2fr solid #73AD21;
+    padding: 5px;
+    width: 1fr;
+    height: 1fr;
+    text-align: center;
+}
+div.lokasjoner_steder img{
+    border-radius: 25px;
+}
+
+.flex-boks{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
 
