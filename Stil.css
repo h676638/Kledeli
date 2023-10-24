@@ -16,16 +16,33 @@ a.topnav-logo{
 h1.forside-overskrift {
    text-align: center;
     font-size: 100px;
+    margin-bottom: 5%;
 }
 h2.forside-underskrift {
     text-align: center;
+    margin-top: -4%;
 }
 
 img.forside-logo {
     display: block;
     margin: auto;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     position: relative;
     transform: translateY(20%);
 }
+div.forside-tabs {
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+   text-align: center;
+   place-items: center;
+   flex-direction: column;
+    width: 1500px;
+}
+
+div.tabinnhold {
+    border: 1px solid black;
+    
+}
+
 
