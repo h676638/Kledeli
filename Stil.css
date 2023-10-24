@@ -10,7 +10,9 @@ div.topnav{
     padding-right:0;
     border-radius:10px;
     position:absolute;
-    width:100px;
+    right:5px;
+    left:0;
+    top:0;
     box-sizing: border-box;
 }
 div.topnav a{
