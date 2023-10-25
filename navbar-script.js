@@ -1,8 +1,15 @@
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
+    let navbar = document.getElementById("myTopnav");
+    let topnavSpace = document.getElementById("topnav-space");
+    if (navbar.className === "topnav") {
+        navbar.className += " responsive";
+        topnavSpace.style.marginBottom = "145px";
+    } 
+    else {
+        navbar.className = "topnav";
+        topnavSpace.style.marginBottom = "0px";
+
     }
-  } 
+} 
+const navbarIcon = document.getElementById("topnav-icon");
+navbarIcon.addEventListener("click", myFunction);
