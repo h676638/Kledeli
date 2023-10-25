@@ -5,8 +5,25 @@ let x3 = "    <a class=\"topnav-not-logo\" href=\"plagg.html\">KLÆR</a>";
 let x4 = "    <a class=\"topnav-not-logo\" href=\"medlemskap.html\">MEDLEMSKAP</a>";
 let x5 = "    <a class=\"topnav-not-logo\" href=\"lokasjoner.html\">LOKASJONER</a>";
 let x6 = "    <a class=\"topnav-not-logo\" href=\"omKledeli.html\">OM KLEDELI</a>";
-let x7 = "    <a href=\"javascript:void(0);\" class=\"topnav-icon\" onclick=\"myFunction()\">&#9776;</a>"
+let x7 = "    <a id=\"topnav-icon\"class=\"topnav-icon\">&#9776;</a>"
 let x8 = "</div>";
 let x9 = "<br>";
-const navbar = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9;
+let x10 = "<div id=\"topnav-space\"> </div>";
+const navbar = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
 document.write(navbar);
+function myFunction() {
+    let navbar = document.getElementById("myTopnav");
+    let topnavSpace = document.getElementById("topnav-space");
+    if (navbar.className === "topnav") {
+        navbar.className += " responsive";
+        topnavSpace.style.marginBottom = "145px";
+    } 
+    else {
+        navbar.className = "topnav";
+        topnavSpace.style.marginBottom = "0px";
+
+    }
+} 
+const navbarIcon = document.getElementById("topnav-icon");
+navbarIcon.addEventListener("click", myFunction);
+
