@@ -46,6 +46,19 @@ a.topnav-not-logo{
 h1.forside-overskrift {
    text-align: center;
     margin-bottom: 5%;
+    font-size: 10vw;
+}
+@media screen and (max-width: 700px) {
+    h1.forside-overskrift{
+        margin-top: 70px;
+    }
+    img.forside-logo{
+        width: auto;
+        height: 50vw;
+    }
+    h2.forside-underskrift {
+        font-size:small;
+    }
 }
 h2.forside-underskrift {
     text-align: center;
@@ -55,23 +68,26 @@ h2.forside-underskrift {
 img.forside-logo {
     display: block;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
     position: relative;
     transform: translateY(20%);
 }
 div.forside-tabs {
     display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-   text-align: center;
-   place-items: center;
-   flex-direction: column;
-    width: 1500px;
+    align-items: center; 
+   justify-content: center;
+
 }
 
 div.tabinnhold {
+    text-align: center;
     border: 1px solid black;
-    
+    border-radius: 10%;
+    padding: 10px;
+}
+div.tabinnhold img {
+    display: block;
+    margin: 0 auto;
 }
 
 
