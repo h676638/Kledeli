@@ -23,7 +23,9 @@ div.topnav{
 div.topnav a{
     color:white;
     text-decoration: none;
-    
+}
+div.topnav-not-logo {
+    color:white;
 }
 div.topnav a:hover{
     color: #F2A4C0;
@@ -40,19 +42,29 @@ a.topnav-logo{
     margin-right:25px;
     border:0px;
     border-radius: 6px;
+    max-width: 5px;
 }
-a.topnav-not-logo{
+.topnav-not-logo{
     padding-right:20px;
     padding-top:2.7mm;
     padding-bottom:2.7mm;
     padding-left:4px;
     font-size:16px;
 }
+div.topnav-dropdown {
+    display:inline;
+}
+div.topnav-dropdown span{
+    display:none;
+}
+.topnav-icon {
+    display:none;
+}
 @media screen and (max-width: 800px) {
-    a.topnav-not-logo {
+    .topnav-not-logo {
         font-size:10px;
         padding-right:4px;
-
+        
     }
     a.topnav-logo{
         margin-right:4px;
@@ -61,12 +73,65 @@ a.topnav-not-logo{
         right:0px;
         border-radius:0px;
     }
+    div.topnav-dropdown {
+        float:left;
+        overflow:hidden;
+        position:relative;
+        display:inline-block;
+    }
+    .topnav-dropdown-content {
+        display:none;
+        position:absolute;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        padding: 12px 16px;
+        z-index:1;
+    }
+    .topnav-dropdown-content a{
+        float:none;
+        display:block;
+    }
+    .topnav a:not(:first-child), .dropdown .topnav-dropdown-button {
+        display: none;
+    }
+    .topnav a.topnav-icon {
+        float: right;
+        display: block;
+        margin-right:5px;
+    }
+    .topnav.responsive {
+        position:relative;
+        margin-top: 0px;
+        margin-bottom:px;
+    }
+    .topnav.responsive a.topnav-icon {
+        position:absolute;
+        right:0;
+        top:0;
+    }
+    .topnav.responsive a {
+        float:none;
+        display:block;
+        text-align:left;
+    }
+    .topnav.responsive .topnav.dropdown {
+        float:none;
+    }
+    .topnav.responsive .topnav.dropdown .dropdown-content{
+        position:relative;
+    }
+    .topnav.responsive .topnav.dropdown .topnav-dropdown-button{
+        display:block;
+        width:100%;
+        text-align: left;
+    }
+
 }
 
 /* --------------------------------------topnav slutt--------------------------------------*/
 
 h1.forside-overskrift {
-   text-align: center;
+    text-align: center;
     font-size: 100px;
     margin-bottom: 5%;
 }
