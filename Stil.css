@@ -104,7 +104,12 @@ div.forside-tabs {
 div.tabinnhold {
     text-align: center;
     border: 1px solid black;
-    
+    display: none;
+}
+
+div.tabinnhold.active{
+    display: block;
+    transition: all;
 }
 
 div.overskrift_lokasjoner{
