@@ -10,7 +10,9 @@ div.topnav{
     padding-right:0;
     border-radius:10px;
     position:absolute;
-    width:100px;
+    right:5px;
+    left:0;
+    top:0;
     box-sizing: border-box;
 }
 div.topnav a{
@@ -40,22 +42,58 @@ a.topnav-not-logo{
     padding-right:4px;
     padding-left:4px;
     font-size:12px;
-
+}
 h1.forside-overskrift {
    text-align: center;
     font-size: 100px;
+    margin-bottom: 5%;
 }
 h2.forside-underskrift {
     text-align: center;
-    
+    margin-top: -4%;
 }
 
 img.forside-logo {
     display: block;
     margin: auto;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
     position: relative;
     transform: translateY(20%);
+}
+div.forside-tabs {
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+   text-align: center;
+   place-items: center;
+   flex-direction: column;
+    width: 1500px;
+}
+
+div.tabinnhold {
+    border: 1px solid black;
+    
+}
+
+
+div.lokasjoner_steder{
+    background-color: #f2a4c0;
+    border-radius: 25px;
+    border: 2fr solid #73AD21;
+    padding: 5px;
+    width: 1fr;
+    height: 1fr;
+    text-align: center;
+}
+div.lokasjoner_steder img{
+    border-radius: 25px;
+}
+
+.flex-boks{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 10px;
 }
 
 div.lokasjoner_steder{
