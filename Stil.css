@@ -131,9 +131,21 @@ div.topnav-dropdown span{
 /* --------------------------------------topnav slutt--------------------------------------*/
 
 h1.forside-overskrift {
-    text-align: center;
-    font-size: 100px;
+   text-align: center;
     margin-bottom: 5%;
+    font-size: 10vw;
+}
+@media screen and (max-width: 700px) {
+    h1.forside-overskrift{
+        margin-top: 70px;
+    }
+    img.forside-logo{
+        width: auto;
+        height: 50vw;
+    }
+    h2.forside-underskrift {
+        font-size:small;
+    }
 }
 h2.forside-underskrift {
     text-align: center;
@@ -143,30 +155,31 @@ h2.forside-underskrift {
 img.forside-logo {
     display: block;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 20px;
     position: relative;
     transform: translateY(20%);
 }
 div.forside-tabs {
     display: flex;
-  justify-content: center; /* Center horizontally */
-  align-items: center; /* Center vertically */
-   text-align: center;
-   place-items: center;
-   flex-direction: column;
-    width: 1500px;
+    align-items: center; 
+   justify-content: center;
+
 }
 
 div.tabinnhold {
+    text-align: center;
     border: 1px solid black;
     
 }
 
+div.overskrift_lokasjoner{
+    text-align: center;
+    width: 1fr;
+    height: 1fr;
+}
 
 div.lokasjoner_steder{
-    background-color: #f2a4c0;
-    border-radius: 25px;
-    border: 2fr solid #73AD21;
+    border: 10px solid #f2a4c0;
     padding: 5px;
     width: 1fr;
     height: 1fr;
@@ -176,33 +189,74 @@ div.lokasjoner_steder img{
     border-radius: 25px;
 }
 
-.flex-boks{
+.flex-boks-steder{
     display: grid;
     grid-template-columns: auto auto auto auto;
-    gap: 10px;
     padding: 10px;
 }
 
-div.lokasjoner_steder{
-    background-color: #f2a4c0;
-    border-radius: 25px;
-    border: 2fr solid #73AD21;
-    padding: 5px;
-    width: 1fr;
-    height: 1fr;
+
+
+
+.Try{
+   
     text-align: center;
+    width: 500;
+    line-height: 4;
+    background-color: #fafafa;
+    
+
 }
-div.lokasjoner_steder img{
-    border-radius: 25px;
+.Try2{
+    color: rgb(41, 34, 34);
+    text-align: left;
+    margin-left: 30px;
+
+}
+table{
+    font-size: 20px;
+    width: 100px;
+    height: 20px;
+    color: rgb(97, 89, 89);
+   
+  
+   width: 72%;
+   padding: 2px;
+   border-bottom: 0.4px solid #847f7f;
+   background-color: rgb(26, 23, 22);
+
+
+   background-color: #7aad9a;
+  color: rgb(71, 54, 54);
+
+   
+
 }
 
-.flex-boks{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    gap: 10px;
-    padding: 10px;
+.Try3{
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+   
 }
+.Try4{
 
+    color: black;
+    text-align: left;
+    margin-left: 30px;
 
+}
+.Try5{
 
+    color: black;
+    text-align: left;
+    margin-left: 30px;
 
+}
+.Try6{
+
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+
+}
