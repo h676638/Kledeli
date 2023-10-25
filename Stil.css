@@ -100,7 +100,7 @@ div.topnav-dropdown span{
         margin-right:5px;
     }
     .topnav.responsive {
-        position:fixed;
+        position:absolute;
         margin-top: 0px;
         margin-bottom:0px;
     }

@@ -11,3 +11,19 @@ let x9 = "<br>";
 let x10 = "<div id=\"topnav-space\"> </div>";
 const navbar = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
 document.write(navbar);
+function myFunction() {
+    let navbar = document.getElementById("myTopnav");
+    let topnavSpace = document.getElementById("topnav-space");
+    if (navbar.className === "topnav") {
+        navbar.className += " responsive";
+        topnavSpace.style.marginBottom = "145px";
+    } 
+    else {
+        navbar.className = "topnav";
+        topnavSpace.style.marginBottom = "0px";
+
+    }
+} 
+const navbarIcon = document.getElementById("topnav-icon");
+navbarIcon.addEventListener("click", myFunction);
+
