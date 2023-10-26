@@ -182,12 +182,6 @@ div.overskrift_lokasjoner{
     height: 1fr;
 }
 
-div.forside-tabs:hover .tabinnhold{
-    display: block;
-}
-
-/* -------------------------- forside slutt -------------------------- */
-
 div.lokasjoner_steder{
     border: 10px solid #f2a4c0;
     padding: 5px;
