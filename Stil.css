@@ -152,6 +152,18 @@ h1.forside-overskrift {
     h2.forside-underskrift {
         font-size:small;
     }
+    div.forside-tabs{
+        flex-direction: column;
+    }
+    div.tabinnhold{
+        width: 100%;
+        height: auto;
+    }
+    div.forside-tabs:hover .tabinnhold {
+        display: block; 
+        transition: all;
+      }
+
 }
 h2.forside-underskrift {
     text-align: center;
@@ -165,13 +177,16 @@ img.forside-logo {
     position: relative;
     transform: translateY(20%);
 }
+
 div.forside-tabs {
     display: flex;
     align-items: center; 
    justify-content: center;
-
 }
-
+div.tabinnhold img{
+    max-width: 100%;
+    
+}
 div.tabinnhold {
     text-align: center;
     border: 1px solid black;
@@ -183,17 +198,18 @@ div.tabinnhold.active{
     transition: all;
 }
 
+@media screen and (min-width: 700px){
+div.forside-tabs:hover .tabinnhold{
+    display: block;
+}
+}
+/* -------------------------- forside slutt -------------------------- */
+
 div.overskrift_lokasjoner{
     text-align: center;
     width: 1fr;
     height: 1fr;
 }
-
-div.forside-tabs:hover .tabinnhold{
-    display: block;
-}
-
-/* -------------------------- forside slutt -------------------------- */
 
 div.lokasjoner_steder{
     border: 10px solid #f2a4c0;
