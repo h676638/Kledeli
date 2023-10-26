@@ -31,7 +31,6 @@ div.topnav a:hover{
     color: #F2A4C0;
 
 }
-
 a.topnav-logo{
     background-image: url("./Bilder/Logo.jpg");
     background-size:40.5px 38.5px;
@@ -44,6 +43,13 @@ a.topnav-logo{
     border-radius: 6px;
     max-width: 5px;
 }
+a.topnav-user {
+    background-image: url("./Bilder/userIcon.jpg");
+    background-size:30px 40px;
+    max-width:30px;
+    padding:10px;
+    padding-right:20px;
+}
 .topnav-not-logo{
     padding-right:20px;
     padding-top:2.7mm;
@@ -53,9 +59,6 @@ a.topnav-logo{
 }
 div.topnav-dropdown {
     display:inline;
-}
-div.topnav-dropdown span{
-    display:none;
 }
 .topnav-icon {
     display:none;
@@ -94,21 +97,24 @@ div.topnav-dropdown span{
     .topnav a:not(:first-child), .dropdown .topnav-dropdown-button {
         display: none;
     }
-    .topnav a.topnav-icon {
+    .topnav a.topnav-icon, .topnav a.topnav-user {
         float: right;
         display: block;
+        position: absolute;
+        top: 7px;
+        right: 0;
         margin-right:5px;
+    }
+    .topnav a.topnav-user {
+        right: 30px;
+        top:0;
     }
     .topnav.responsive {
         position:absolute;
         margin-top: 0px;
         margin-bottom:0px;
     }
-    .topnav.responsive a.topnav-icon {
-        position:absolute;
-        right:0;
-        top:0;
-    }
+
     .topnav.responsive a {
         float:none;
         display:block;
