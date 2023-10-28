@@ -218,6 +218,66 @@ div.forside-tabs:hover .tabinnhold{
 }
 /* -------------------------- forside slutt -------------------------- */
 
+/* --------------------------  plagg start  -------------------------- */
+div.plagg-kategorier-container {
+    display:flex;
+    justify-content: center;
+}
+div.plagg-kategorier {
+    width: 200px;
+    text-align:center;
+    padding:15px;
+    border-style:solid;
+    border-radius: 10px;
+    border-width:0px;
+    margin:2px;
+    height:250px;
+}
+div.plagg-kategorier.plagg-1 {
+    background-color:#011E57;
+}
+div.plagg-kategorier.plagg-2 {
+    background-color:#098BB4;
+}
+div.plagg-kategorier.plagg-3 {
+    background-color:#F2A4C0;
+}
+details.plagg-details summary {
+    list-style:none;
+}
+div.plagg-kategorier h2 {
+    -webkit-text-stroke-width: 0.6px;
+    -webkit-text-stroke-color: white;
+}
+div.plagg-kategorier a {
+    text-decoration: none;
+    color:white;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: black;
+}
+div.plagg-overskrift {
+    text-align: center;
+    margin-bottom:20px;
+}
+img.plagg-overskrift-bilde {
+    width:140px;
+    height:140px;
+    border-style:solid;
+    border-width:0px;
+    border-radius:20px;
+}
+
+@media screen and (max-width:800px) {
+    div.plagg-kategorier-container {
+        display:block;
+        text-align:center;
+    }
+    div.plagg-kategorier {
+        display:inline-block;
+    }
+}
+/* --------------------------  plagg slutt  -------------------------- */
+
 div.overskrift_lokasjoner{
     text-align: center;
     width: 1fr;

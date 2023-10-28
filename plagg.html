@@ -10,57 +10,67 @@
     <body>
         <!-- Adds navigation bar -->
         <script src="navbar.js"></script>
-        
-        <h1> KLÆR </h1>
-        <img src=Bilder/CLOTHES.jpg alt=CLOTHES>
-        <details>
-            <summary><h2>YTTERKLÆR</h2></summary>
-            <a href=Plagg-sider/Ytterklær-sider/plaggJAKKER.html>
-                <p>Jakker</p>
-            </a>
-            <a href=Plagg-sider/Ytterklær-sider/plaggPARKDRESSER.html>
-                <p>Parkdresser</p>
-            </a>
-            <a href=Plagg-sider/Ytterklær-sider/plaggVOTTER.html>
-                <p>Votter</p>
-            </a>
-            <a href=Plagg-sider/Ytterklær-sider/plaggHODEPLAGG.html>
-                <p>Hodeplagg</p>
-            </a>
-        </details>
-        <img src=Bilder/JACKETS.png alt=JACKETS width=200 height=200>
-        <details>
-            <summary><h2>INNERKLÆR</h2></summary>
-            <a href=Plagg-sider/Inneklær-sider/plaggBUKSER.html>
-                <p>Bukser</p>
-            </a>
-            <a href=Plagg-sider/Inneklær-sider/plaggGENSERE.html>
-                <p>Gensere</p>
-            </a>
-            <a href=Plagg-sider/Inneklær-sider/plaggSKJORTER.html>
-                <p>Skjorter</p>
-            </a>
-        </details>
-        <img src=Bilder/CASUAL.png alt="INNERCLOTHES" width=200 height=200> 
-        <details>
-            <summary><h2>UNDERTØY</h2></summary>
-            <a href=Plagg-sider/Undertøy-sider/plaggBODY.html>
-                <p>Body</p>
-            </a>
-            <a href=Plagg-sider/Undertøy-sider/plaggT-SKJORTER.html>
-                <p>T-Skjorter</p>
-            </a>
-            <a href=Plagg-sider/Undertøy-sider/plaggTRUSEROGBOXSERE.html>
-                <p>Truser og Boxere</p>
-            </a>
-            <a href=Plagg-sider/Undertøy-sider/plaggULLBUKSER.html>
-                <p>Ullbukser</p>
-            </a>
-            <a href=Plagg-sider/Undertøy-sider/plaggULLGENSERE.html>
-                <p>Ullgensere</p>
-            </a>
-        </details>
-        <img src=Bilder/UNDERWEAR.png alt=UNDERWEAR width=200 height=200>
-
+        <div class="plagg-overskrift">
+            <h1> KLÆR </h1>
+            <img class="plagg-overskrift-bilde" src="Bilder/Logo.jpg" alt="CLOTHES">
+        </div>
+            
+        <div class="plagg-kategorier-container"> 
+            <div class="plagg-kategorier plagg-1">
+                <img src=Bilder/JACKETS.png alt=JACKETS width=200 height=200>
+                <details class="plagg-details">
+                    <summary><h2>YTTERKLÆR &#11167;</h2></summary>
+                    <a href=Plagg-sider/Ytterklær-sider/plaggJAKKER.html>
+                        <p>Jakker</p>
+                    </a>
+                    <a href=Plagg-sider/Ytterklær-sider/plaggPARKDRESSER.html>
+                        <p>Parkdresser</p>
+                    </a>
+                    <a href=Plagg-sider/Ytterklær-sider/plaggVOTTER.html>
+                        <p>Votter</p>
+                    </a>
+                    <a href=Plagg-sider/Ytterklær-sider/plaggHODEPLAGG.html>
+                        <p>Hodeplagg</p>
+                        </a>
+                    </details>
+            </div>
+            <div class="plagg-kategorier plagg-2">
+                <img src=Bilder/CASUAL.png alt="INNERCLOTHES" width=200 height=200> 
+                <details class="plagg-details">
+                    <summary><h2>INNERKLÆR &#11167;</h2></summary>
+                    <a href=Plagg-sider/Inneklær-sider/plaggBUKSER.html>
+                        <p>Bukser</p>
+                    </a>
+                    <a href=Plagg-sider/Inneklær-sider/plaggGENSERE.html>
+                        <p>Gensere</p>
+                    </a>
+                    <a href=Plagg-sider/Inneklær-sider/plaggSKJORTER.html>
+                        <p>Skjorter</p>
+                    </a>
+                </details>
+            </div>
+            <div class="plagg-kategorier plagg-3">
+                <img src=Bilder/UNDERWEAR.png alt=UNDERWEAR width=200 height=200>
+                <details class="plagg-details">
+                    <summary><h2>UNDERTØY &#11167;</h2></summary>
+                    <a href=Plagg-sider/Undertøy-sider/plaggBODY.html>
+                        <p>Body</p>
+                    </a>
+                    <a href=Plagg-sider/Undertøy-sider/plaggT-SKJORTER.html>
+                        <p>T-Skjorter</p>
+                    </a>
+                    <a href=Plagg-sider/Undertøy-sider/plaggTRUSEROGBOXSERE.html>
+                        <p>Truser og Boxere</p>
+                    </a>
+                    <a href=Plagg-sider/Undertøy-sider/plaggULLBUKSER.html>
+                        <p>Ullbukser</p>
+                    </a>
+                    <a href=Plagg-sider/Undertøy-sider/plaggULLGENSERE.html>
+                        <p>Ullgensere</p>
+                    </a>
+                </details>
+            </div>
+        </div>
+        <script src="plagg.js"></script>
     </body>
 </html>
