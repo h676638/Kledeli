@@ -12,5 +12,10 @@ childDivs.forEach((div) => {
         else {
             div.style.height = "250px";
         }
+        event.stopPropagation();
+    })
+    div.addEventListener("click", (event) => {
+        details.toggleAttribute("open");
+        event.preventDefault();
     })
 });
