@@ -51,6 +51,9 @@ a.topnav-user {
     padding: 6px;
     padding-right: 19px;
 }
+a.topnav-user:hover {
+    background-image:url("./Bilder/pinkUserLogo.jfif");
+}
 .topnav-not-logo{
     padding-right:20px;
     padding-top:2.7mm;
@@ -274,11 +277,8 @@ table{
 
 
 
-<<<<<<< Updated upstream
    
 
-=======
->>>>>>> Stashed changes
 }
 
 
