@@ -274,6 +274,7 @@ img.plagg-overskrift-bilde {
     }
     div.plagg-kategorier {
         display:inline-block;
+        vertical-align: top;
     }
 }
 /* --------------------------  plagg slutt  -------------------------- */
@@ -309,6 +310,7 @@ ul.plagg-undersider-størrelser {
 
 
 /* --------------------------  plagg undersider slutt  -------------------------- */
+/* --------------------------  lokasjoner start  -------------------------- */
 
 div.overskrift_lokasjoner{
     text-align: center;
@@ -326,13 +328,35 @@ div.lokasjoner_steder{
 }
 div.lokasjoner_steder img{
     border-radius: 25px;
-}
 
+}
 .flex-boks-steder{
     display: grid;
     grid-template-columns: auto auto auto auto;
     padding: 10px;
 }
+h2.lokasjoner-underskrift {
+    display:inline-block;
+}
+@media screen and (max-width:800px) {
+    div.lokasjoner_steder img{
+        width:70vw;
+        height:32vw;
+    }  
+    div.lokasjoner_steder{
+        border: 10px solid #f2a4c0;
+        padding: 5px;
+        width: 80vw;
+        height: 80vw;
+        text-align: center;
+        border-radius: 25px;
+    } 
+    .flex-boks-steder {
+        display:block;
+    }
+}
+
+/* --------------------------  lokasjoner slutt  -------------------------- */
 
 
 
@@ -397,8 +421,8 @@ table{
     text-align: center;
     margin-left: 30px;
   
-   text-align-last: center;
-   width: senter;
+    text-align-last: center;
+    width: senter;
 }
 .Try6{
 
@@ -406,6 +430,9 @@ table{
     text-align: center;
     margin-left:30px;
 
+}
+.medlemskap-registrert {
+    margin-left:46%;
 }
 /* --------------------------  registrering start  -------------------------- */
 
