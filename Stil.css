@@ -300,7 +300,11 @@ ul.plagg-undersider-størrelser {
     display:inline-block;
     text-align:left;
 }
-ul.plagg-undersider-størrelser li{
+@media screen and (max-width:800px) {
+    div.plagg-undersider-container-container {
+        width:50vw;
+        margin-left:22vw;
+    }
 }
 
 
