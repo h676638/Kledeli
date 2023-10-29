@@ -297,10 +297,10 @@ div.plagg-undersider-container-container {
     border-color:#F2A4C0;
 }
 ul.plagg-undersider-størrelser {
+    display:inline-block;
     text-align:left;
 }
 ul.plagg-undersider-størrelser li{
-    margin-left:6vw;
 }
 
 
