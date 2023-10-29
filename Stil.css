@@ -375,9 +375,23 @@ table{
     margin-left:30px;
 
 }
+/* --------------------------  registrering start  -------------------------- */
+
 div.registration-container{
     text-align: center;
 }
+span.registrering-error {
+    color:red;
+    display:none;
+}
+/* --------------------------  registrering slutt  -------------------------- */
+/* --------------------------  login start  -------------------------- */
+
 div.login-container{
     text-align: center;
 }
+span.login-error {
+    color:red;
+    display:none;
+}
+/* --------------------------  login slutt  -------------------------- */

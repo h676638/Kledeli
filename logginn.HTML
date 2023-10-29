@@ -2,26 +2,29 @@
 <html>
 <head>
     <title>Innlogging</title>
-    <link rel="stylesheet" href="stil.css"> <!-- Legg til stilark hvis nødvendig -->
+    <link rel="stylesheet" href="stil.css">
 </head>
 <body>
-    <script src="../../navbar.js"></script>
+    <script src="navbar.js"></script>
     <div class="login-container">
         <h2>LOGG INN</h2>
+        <form id="login-form">
             <label for="brukernavn">Brukernavn:</label>
             <br>
-            <input type="text" id="brukernavn" name="brukernavn" required>
+            <input type="text" id="login-brukernavn" name="brukernavn" required>
             <br>
             <label for="passord">Passord:</label>
             <br>
-            <input type="password" id="passord" name="passord" required>
+            <input type="password" id="login-passord" name="passord" required>
             <br>
+            <span id="login-error" class="login-error">Feil brukernavn eller passord</span>
             <br>
             <input type="submit" value="Logg inn">
         </form>
-
         <p>Har du ikke en konto? <a href="registrering.html">Registrer deg her</a></p>
+        <span id="login-logged-in"></span>
     </div>
     <img class="forside-logo"  src="Bilder/Logo.jpg" width="300" height="300">
+    <script src="login.js"></script>
 </body>
 </html>

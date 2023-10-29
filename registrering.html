@@ -5,20 +5,23 @@
     <link rel="stylesheet" href="stil.css"> <!-- Legg til stilark hvis nødvendig -->
 </head>
 <body>
-    <script src="../../navbar.js"></script>
+    <script src="navbar.js"></script>
     <div class="registration-container">
         <h2>REGISTRER DEG</h2>
+        <form id="registrering-form">
             <label for="brukernavn">Brukernavn:</label>
             <br>
-            <input type="text" id="brukernavn" name="brukernavn" required>
+            <input type="text" id="registrering-brukernavn" name="brukernavn" required>
             <br>
             <label for="passord">Passord:</label>
             <br>
-            <input type="password" id="passord" name="passord" required>
+            <input type="password" id="registrering-passord" name="passord" required>
             <br>
             <label for="bekreft-passord">Bekreft passord:</label>
             <br>
-            <input type="password" id="bekreft-passord" name="bekreft-passord" required>
+            <input type="password" id="registrering-bekreft-passord" name="bekreft-passord" required>
+            <br>
+            <span id="registrering-error" class="registrering-error">Passordene er ikke like</span>
             <br>
             <br>
             <input type="submit" value="Registrer deg">
@@ -26,5 +29,6 @@
         </form>
     </div>
     <img class="forside-logo"  src="Bilder/Logo.jpg" width="300" height="300">
+    <script src="registrering.js"></script>
 </body>
 </html>
