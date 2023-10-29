@@ -234,7 +234,7 @@ div.plagg-kategorier {
     height:250px;
 }
 div.plagg-kategorier.plagg-1 {
-    background-color:#011E57;
+    background-color:#e1c78f;
 }
 div.plagg-kategorier.plagg-2 {
     background-color:#098BB4;
@@ -277,6 +277,34 @@ img.plagg-overskrift-bilde {
     }
 }
 /* --------------------------  plagg slutt  -------------------------- */
+/* --------------------------  plagg undersider start  -------------------------- */
+h1.plagg-undersider-overskrift {
+    text-align:center;
+}
+h2.plagg-undersider-underskrift {
+    text-align:center;
+}
+div.plagg-undersider-container {
+    text-align:center;
+    justify-content: center;
+}
+div.plagg-undersider-container-container {
+    width:35vw;
+    margin-left:30vw;
+    text-align:center;
+    justify-content: center;
+    border-style:solid;
+    border-color:#F2A4C0;
+}
+ul.plagg-undersider-størrelser {
+    text-align:left;
+}
+ul.plagg-undersider-størrelser li{
+    margin-left:6vw;
+}
+
+
+/* --------------------------  plagg undersider slutt  -------------------------- */
 
 div.overskrift_lokasjoner{
     text-align: center;
