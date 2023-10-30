@@ -10,7 +10,7 @@ let x8 = "    <a id=\"topnav-icon\"class=\"topnav-icon\">&#9776;</a>"
 let x9 = "</div>";
 let x10 = "<br>";
 let x11 = "<div id=\"topnav-space\"> </div>";
-const navbar = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10;
+const navbar = x1 + x2 + x3 + x4 + x5 + x6 + x7 + x8 + x9 + x10 + x11;
 document.write(navbar);
 function myFunction() {
     let navbar = document.getElementById("myTopnav");
