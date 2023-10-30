@@ -453,4 +453,7 @@ span.login-error {
     color:red;
     display:none;
 }
+#logginn{
+    background-color: #f2a4c0;
+}
 /* --------------------------  login slutt  -------------------------- */

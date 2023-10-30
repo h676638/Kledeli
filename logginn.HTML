@@ -11,22 +11,23 @@
     <div class="login-container">
         <h2>LOGG INN</h2>
         <form id="login-form">
-            <label for="brukernavn">Brukernavn:</label>
+            <label>Brukernavn:</label>
             <br>
-            <input type="text" id="login-brukernavn" name="brukernavn" required>
+            <input>
             <br>
-            <label for="passord">Passord:</label>
             <br>
-            <input type="password" id="login-passord" name="passord" required>
+            <label>Passord:</label>
             <br>
-            <span id="login-error" class="login-error">Feil brukernavn eller passord</span>
+            <input> 
             <br>
-            <input type="submit" value="Logg inn">
+            <br>
+            <input type="submit" value="Logg inn" id="logginn">
         </form>
-        <p>Har du ikke en konto? <a href="registrering.html">Registrer deg her</a></p>
-        <span id="login-logged-in"></span>
+        <p>Ikke medlem? </p>
+        <a href="registrering.html">
+            <button id="logginn">Registrer deg her</button>
+        </a>
     </div>
-    <img class="forside-logo"  src="Bilder/Logo.jpg" width="300" height="300">
     <script src="login.js"></script>
 </body>
 </html>
