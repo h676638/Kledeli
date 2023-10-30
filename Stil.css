@@ -312,22 +312,24 @@ ul.plagg-undersider-størrelser {
 /* --------------------------  plagg undersider slutt  -------------------------- */
 /* --------------------------  lokasjoner start  -------------------------- */
 
-div.overskrift_lokasjoner{
+div.overskrift-lokasjoner{
     text-align: center;
     width: 1fr;
     height: 1fr;
 }
 
-div.lokasjoner_steder{
+div.lokasjoner-steder{
     border: 10px solid #f2a4c0;
     padding: 5px;
-    width: 1fr;
-    height: 1fr;
     text-align: center;
     border-radius: 25px;
+    width:45vw;
+    margin-bottom:2px;
 }
-div.lokasjoner_steder img{
+div.lokasjoner-steder img{
     border-radius: 25px;
+    width:40vw;
+    height:15vw;
 
 }
 .flex-boks-steder{
@@ -339,11 +341,11 @@ h2.lokasjoner-underskrift {
     display:inline-block;
 }
 @media screen and (max-width:800px) {
-    div.lokasjoner_steder img{
+    div.lokasjoner-steder img{
         width:70vw;
         height:32vw;
     }  
-    div.lokasjoner_steder{
+    div.lokasjoner-steder{
         border: 10px solid #f2a4c0;
         padding: 5px;
         width: 80vw;
