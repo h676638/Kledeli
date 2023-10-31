@@ -245,15 +245,11 @@ div.plagg-kategorier.plagg-3 {
 details.plagg-details summary {
     list-style:none;
 }
-div.plagg-kategorier h2 {
-    -webkit-text-stroke-width: 0.6px;
-    -webkit-text-stroke-color: white;
-}
+
 div.plagg-kategorier a {
     text-decoration: none;
     color:black;
-    -webkit-text-stroke-width: 0px;
-    -webkit-text-stroke-color: black;
+
 }
 div.plagg-overskrift {
     text-align: center;
@@ -314,8 +310,6 @@ ul.plagg-undersider-størrelser {
 
 div.overskrift-lokasjoner{
     text-align: center;
-    width: 1fr;
-    height: 1fr;
 }
 
 div.lokasjoner-steder{
@@ -366,7 +360,7 @@ h2.lokasjoner-underskrift {
 .Try{
    
     text-align: center;
-    width: 500;
+    width: 500px;
     line-height: 4;
     background-color: #fafafa;
     
@@ -433,7 +427,6 @@ table.medlemskap-table tr:hover {
     margin-left: 30px;
   
     text-align-last: center;
-    width: senter;
 }
 .Try6{
 
@@ -467,6 +460,5 @@ span.login-error {
 .logginn{
     background-color: #f2a4c0;
 }
-
   
 /* --------------------------  login slutt  -------------------------- */
