@@ -9,27 +9,23 @@
 <body>
     <script src="navbar.js"></script>
     <div class="registration-container">
-        <h2>REGISTRER DEG</h2>
+        <h1>REGISTRER DEG</h1>
             <label for="brukernavn">Brukernavn:</label> 
             <br>
-            <input>
+            <input id="brukernavn">
+            <br>    
+            <br>
+            <label for="passord">Passord:</label>
+            <br>
+            <input id="passord">
             <br>
             <br>
-            <label>Passord:</label>
+            <label for="bekreft-passord">Bekreft passord:</label>
             <br>
-            <input>
-            <br>
-            <br>
-            <label>Bekreft passord:</label>
-            <br>
-            <input>
+            <input id="bekreft-passord">
             <br>
             <br>
-            <input type="submit" value="Registrer deg" id="logginn">
-            <p>Har du en bruker? </p>
-            <a href="logginn.html">
-                <button id="logginn">Logg inn her</button>
-            </a>
+            <input type="submit" value="Registrer deg" class="logginn"> 
     </div>
     <script src="registrering.js"></script>
 </body>

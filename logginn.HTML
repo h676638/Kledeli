@@ -9,23 +9,23 @@
 <body>
     <script src="navbar.js"></script>
     <div class="login-container">
-        <h2>LOGG INN</h2>
+        <h1>LOGG INN</h1>
         <form id="login-form">
-            <label>Brukernavn:</label>
+            <label for="brukernavn">Brukernavn:</label>
             <br>
-            <input>
-            <br>
-            <br>
-            <label>Passord:</label>
-            <br>
-            <input> 
+            <input id="brukernavn">
             <br>
             <br>
-            <input type="submit" value="Logg inn" id="logginn">
+            <label for="passord">Passord:</label>
+            <br>
+            <input id="passord"> 
+            <br>
+            <br>
+            <input type="submit" value="Logg inn" class="logginn">
         </form>
         <p>Ikke medlem? </p>
         <a href="registrering.html">
-            <button id="logginn">Registrer deg her</button>
+            <button class="logginn">Registrer deg her</button>
         </a>
     </div>
     <script src="login.js"></script>
