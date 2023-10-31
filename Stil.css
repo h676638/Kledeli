@@ -354,17 +354,11 @@ h2.lokasjoner-underskrift {
 
 /* --------------------------  lokasjoner slutt  -------------------------- */
 
-
-
-
 .Try{
-   
-    text-align: center;
     width: 500px;
     line-height: 4;
-    background-color: #fafafa;
-    
-
+    margin-left:auto;
+    margin-right:auto;
 }
 .Try2{
     color: rgb(41, 34, 34);
@@ -374,13 +368,9 @@ h2.lokasjoner-underskrift {
 }
 table.medlemskap-table{
     font-size: 20px;
-    width: 100px;
-    height: 20px;
 
     width: 72%;
     padding: 2px;
-    border-bottom: 0.4px solid #e7d8d8;
-
     background-color: #098BB4;
     color: rgb(34, 27, 27);
     line-height: 2;
@@ -397,7 +387,7 @@ table.medlemskap-table tr.meldlemskap-tr-overskrift {
     background-color:#098BB4;
 }
 table.medlemskap-table tr:hover {
-    background-color:green;
+    background-color:#F2A4C0;
 }
 .medlemskap-p {
     text-align:center;
